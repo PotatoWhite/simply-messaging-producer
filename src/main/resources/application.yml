@@ -1,0 +1,10 @@
+simply:
+  eventable:
+    entity-base-package: io.easywalk.simplymessagingproducer
+    topic-property:
+      number-of-replicas: 1
+      number-of-partitions: 10
+spring:
+  h2:
+    console:
+      enabled: true
